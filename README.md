@@ -4,14 +4,24 @@
 Leeds School of Business, University of Colorado Boulder
 
 
+## Project Description
+
+### Prerequisites
+
+### Installing
+
+### Deployment
+
 ## Contact Information
 
 **Author:**  
-- Yongbo Shu (yongbo.shu@colorado.edu)
+- Yongbo Shu (Yongbo.Shu@colorado.edu)
 - Katie Greenfield (Kathryn.Greenfield@colorado.edu)
 - Madison Moye (Madison.Moye@colorado.edu)
 - Dylan Bernstein (Dylan.Bernstein@colorado.edu)
-- Jennifer Dickson (Jennifer.Dickson@colorado.edu)
+- Jennifer Dickson (Jennifer.Dickson@colorado.edu)  
 
-## Project Description
+**Instructor:**
+- Peigang Zhang (Peigang.Zhang@colorado.edu)
+
 
