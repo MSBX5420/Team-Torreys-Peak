@@ -7,7 +7,7 @@ Leeds School of Business, University of Colorado Boulder
 ## Project Description
 
 ### Prerequisites
-- Install pandas
+- Install pandas, pyspark
 
 ### Installing
 
