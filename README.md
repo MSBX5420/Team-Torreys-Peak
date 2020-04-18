@@ -7,6 +7,7 @@ Leeds School of Business, University of Colorado Boulder
 ## Project Description
 
 ### Prerequisites
+- Install pandas
 
 ### Installing
 
@@ -23,5 +24,3 @@ Leeds School of Business, University of Colorado Boulder
 
 **Instructor:**
 - Peigang Zhang (Peigang.Zhang@colorado.edu)
-
-
