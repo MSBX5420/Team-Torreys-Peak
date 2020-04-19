@@ -1,12 +1,11 @@
 print("hello world!")
 
 import os
+os.chdir('data')
 path = os.getcwd()
 print(path)
 
 # change working directory to where the data file stores
-# os.chdir('data')
-# print(path)
 
 import pandas as pd
 from pandas import  *
