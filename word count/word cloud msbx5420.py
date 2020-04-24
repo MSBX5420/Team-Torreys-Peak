@@ -5,7 +5,13 @@
 
 
 # Import necessary libraries.
+import numpy as np
+import pandas as pd
+from os import path
+from PIL import Image
+from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 
+import matplotlib.pyplot as plt
 
 
 import os
@@ -24,7 +30,7 @@ print(path)
 # In[8]:
 
 
-df = read_csv("/news.csv", index_col=0)
+df = pd.read_csv("/news.csv", index_col=0)
 
 
 # In[9]:
