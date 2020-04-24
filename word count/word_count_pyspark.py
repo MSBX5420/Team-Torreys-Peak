@@ -12,7 +12,7 @@ spark = SparkSession.builder.getOrCreate()
 #     .reduceByKey(lambda a, b: a + b)
 # print(counts.collect())
 
-df = spark.read.format('csv').option('header',True).load("./data/news.csv");
+df = spark.read.format('csv').option("escape","\"").option('header',True).load("./data/news.csv");
 df.printSchema
 df.collect()[0][5]
 
