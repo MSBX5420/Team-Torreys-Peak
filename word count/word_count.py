@@ -4,6 +4,7 @@ import os
 os.chdir('data')
 path = os.getcwd()
 print(path)
+import nltk
 
 # change working directory to where the data file stores
 
@@ -27,7 +28,7 @@ news['text'][1]
 
 type(news['text'])
 
-news.text.apply(lambda x: pd.value_counts(x.split(" "))).sum(axis = 0)
+news.text.apply(lambda x: pd.value_counts(x.split(" "))).sum(axis = 0).sort_values(ascending=False)
 
 
 newstest = news.iloc[:3]
