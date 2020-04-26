@@ -2,6 +2,7 @@ from __future__ import print_function
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import countDistinct
 from pyspark.sql.functions import *
+from pyspark.sql.functions import split
 import os
 
 spark = SparkSession.builder.getOrCreate()
@@ -37,9 +38,14 @@ rdd.df.select('text').show(1)
 
 newdf = df.withColumn('text', regexp_replace('text', '\xa0', ''))
 newdf = newdf.withColumn('text', regexp_replace('text', '\\\'', ''))
-df.text.replace("\\'s", "", regex= True, inplace=True)
-rdd.select = df.select('text').rdd
-rdd.select.take(1)
+
 
 df.take(1)
 newdf.take(1)
+
+rdd_text = newdf.select('text').rdd
+rdd_text.take(1)
+
+counts_rdd = rdd_text.flatMap(lambda x: x[0].split(" ")).map(lambda x: (x, 1)).reduceByKey(lambda x,y: x+y)
+type(counts_rdd)
+counts_rdd = counts_rdd.toDF('word','count')
