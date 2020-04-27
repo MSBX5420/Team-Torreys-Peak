@@ -20,7 +20,7 @@ COVID-19 has a strong impact on human lives. Our mission is to analyze how COVID
 
 ### Installing
 ```console
-pip install --user pandas pyspark tmtoolkit nltk numpy wordcloud
+pip install --user pandas pyspark tmtoolkit nltk numpy wordcloud matplotlib seaborn
 ```
 
 ### Deployment
