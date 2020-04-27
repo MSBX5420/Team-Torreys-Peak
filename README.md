@@ -1,5 +1,5 @@
 <p align="left">
-  <img width="500" height="200" src="https://github.com/MSBX5420/Team-Torreys-Peak/blob/master/design%20doc/images/Boulder%20one%20line%20copy.jpg">
+  <img width="250" height="100" src="https://github.com/MSBX5420/Team-Torreys-Peak/blob/master/design%20doc/images/Boulder%20one%20line%20copy.jpg">
 </p>
 
 # MSBX 5420 - Spring 2020
@@ -10,16 +10,21 @@ Leeds School of Business, University of Colorado Boulder
 
 ## Project Description
 
+COVID-19 has a strong impact on human lives. Our mission is to analyze how COVID-19 affects the newspaper industry.
+
 ### Prerequisites
-- Pandas, pyspark
+- AWS cluster with pyspark (python 3) environment
+- pandas & pyspark & numpy for data processing
+- tmtoolkit & nltk for text mining and topic modeling
+- matplotlib & wordcloud & seaborn for data visualization
 
 ### Installing
 ```console
-pip install Pandas
-pip install pyspark
+pip install --user pandas pyspark tmtoolkit nltk numpy wordcloud
 ```
 
 ### Deployment
+blahblah
 
 ## Contact Information
 
