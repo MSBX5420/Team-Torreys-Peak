@@ -77,5 +77,5 @@ For the Big Topic Model, we relaxed some of the filters of the Smaller Topic Mod
 
 <p align="center">
   <img width="200" height="350" src="https://github.com/MSBX5420/Team-Torreys-Peak/blob/master/design%20doc/images/image4.png"><br/>
-  Figure G
+  Figure H
 </p>
