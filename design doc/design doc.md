@@ -1,7 +1,7 @@
 ### MSBX5420 Team Project
 ### 4/28/2020
 ### Team Torreys Peak
-### Yongbo Shu, Madison Moye, Katie Greenfield, Dylan Bernstein, Jennifer Dickson
+##### Yongbo Shu, Madison Moye, Katie Greenfield, Dylan Bernstein, Jennifer Dickson
 
 <div align="center">
 <b>Design Document</b>
