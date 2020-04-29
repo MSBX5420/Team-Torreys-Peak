@@ -26,7 +26,8 @@ pip install --user pandas pyspark tmtoolkit nltk numpy wordcloud matplotlib seab
 ### Deployment
 - For local environment:
   - All files except [word_count_pyspark.ipynb](https://github.com/MSBX5420/Team-Torreys-Peak/blob/master/word%20count/word_count_pyspark.ipynb) can be executed on your local machine. Be sure to adjust the path for reading [news.csv](https://www.kaggle.com/ryanxjhan/cbc-news-coronavirus-articles-march-26).
-  - All files can be executed on any cloud service. We will give an example on running files on AWS cluster.
+- For cluster platform:
+    - All files can be executed on any cloud service. We will give an example on running files on AWS cluster.
     - Tuning path for reading files is a pain, we totally understand that. So if you want to run our code on AWS, we strongly recommend save news.csv at the same folder as all other .ipynb files. In that way, all you need to do is change path to :
     <p align="center">
       <img width="500" height="100" src="https://github.com/MSBX5420/Team-Torreys-Peak/blob/master/design%20doc/images/Jietu20200428-234300%402x.jpg">
